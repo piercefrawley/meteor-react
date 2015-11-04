@@ -12,6 +12,6 @@ if(Meteor.isClient){
   );
 
   Meteor.startup(() => {
-    React.render(<Routes history={history}/>, document.body);
+    React.render(routes, document.body);
   });
 }

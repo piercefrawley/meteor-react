@@ -1,10 +1,12 @@
+const { Link } = ReactRouter;
+
 // App component - represents the whole app
 Index = React.createClass({
-
   render() {
     return (
-      <div className="container">
-        Im a little index short and stout
+      <div>
+        <p>This is the index route.</p>
+        <Link to="/foo">Show me your foo.</Link>
       </div>
     );
   }

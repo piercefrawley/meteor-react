@@ -1,10 +1,12 @@
-// App component - represents the whole app
+const { Link } = ReactRouter;
+
 Foo = React.createClass({
 
   render() {
     return (
-      <div className="container">
-        Im a little foo foo
+      <div>
+        <p>This is my foo.</p>
+        <Link to="/">Now go home</Link>
       </div>
     );
   }
