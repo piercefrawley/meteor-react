@@ -1,4 +1,4 @@
-const { Link } = ReactRouter;
+const { Link } = ReactRouter; 
 
 // App component - represents the whole app
 Index = React.createClass({
@@ -7,6 +7,7 @@ Index = React.createClass({
       <div>
         <p>This is the index route.</p>
         <Link to="/foo">Show me your foo.</Link>
+        <AccountsUIWrapper/>
       </div>
     );
   }
