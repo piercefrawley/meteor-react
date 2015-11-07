@@ -11,7 +11,7 @@ if(Meteor.isClient){
       <Router history={history}>
         <Route path="/" component={App}>
           <IndexRoute component={Home}/>
-          <Route path="foo" component={Foo}/>
+          <Route path="login" component={Login} />
         </Route>
       </Router>
     );

@@ -1,12 +1,13 @@
 const { Link } = ReactRouter; 
 
 // App component - represents the whole app
-Home = React.createClass({
+Login = React.createClass({
   render() {
     return (
       <div>
-        <p>This is the home route.</p>
-        <Link to="/login">Login</Link>
+        <p>This is the login page</p>
+        <AccountsUIWrapper/>
+        <Link to="/">Go Home</Link>
       </div>
     );
   }
