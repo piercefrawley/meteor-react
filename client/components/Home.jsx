@@ -1,7 +1,7 @@
 const { Link } = ReactRouter; 
 
 // App component - represents the whole app
-Index = React.createClass({
+Home = React.createClass({
   render() {
     return (
       <div>

@@ -7,6 +7,15 @@ if(Meteor.isClient){
   });
 
   Meteor.startup(() => {
-    React.render(<Routes history={history}/>, document.querySelector('#render-target'));
+    AppRoutes = (
+      <Router history={history}>
+        <Route path="/" component={App}>
+          <IndexRoute component={Home}/>
+          <Route path="foo" component={Foo}/>
+        </Route>
+      </Router>
+    );
+
+    ReactRouterSSR.Run(AppRoutes);
   });
 }
