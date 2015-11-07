@@ -49,8 +49,10 @@ localstorage@1.0.5
 logging@1.0.8
 meteor@1.1.10
 meteor-base@1.0.1
+meteorhacks:async@1.0.0
 meteorhacks:fast-render@2.9.0
 meteorhacks:inject-data@1.4.1
+meteorhacks:npm@1.5.0
 meteorhacks:picker@1.0.3
 minifiers@1.1.7
 minimongo@1.0.10
